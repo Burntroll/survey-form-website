@@ -5,31 +5,47 @@
 }
 
 body {
-    background: linear-gradient(rgba(70, 6, 153, 0.5), rgba(70, 6, 153, 0.5)80%), url("/assets/image/background.jpg");
-    font: "Times New Roman", Times, serif;
-    color: rgb(124, 243, 124);
+    background: linear-gradient(rgb(102, 0, 204, 0.65), rgb(102, 0, 204, 0.65)80%), url("/assets/image/background.jpg");
+    font-family: 'Inter', sans-serif;
+    color: rgb(242, 242, 242);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     text-align: center;
     align-items: center;
-    margin: 4% 0 2.5% 0;
+    margin: 4% 0 0 0;
     font-size: 45px;
+    color: rgb(242, 242, 242);
+}
+
+.thankyou {
+    margin-bottom: 30px;
 }
 
 p {
-    text-align: center;
+    text-align: left;
     align-items: center;
-    margin-bottom: 3%;
+    margin: 25px 0 10px 0;
     font-size: 25px;
     font-weight: 500;
+
+
 }
 
 .container {
-    width: 600px;
-    height: 750px;
-    border: 1px solid black;
-    border-radius: 2%;
+    width: 700px;
+    height: 850px;
+    border: 1px solid rgb(38, 0, 77);
+    border-radius: 0.9%;
+    background-color: rgb(26, 0, 51, 0.7);
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 5px;
 }
 
 button {

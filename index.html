@@ -6,30 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" href="/assets/image/Favicon.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <title>Formulário de Pesquisa</title>
 </head>
 <body>
-    <h1>Digital Security Institute</h1>
+    <h1>Digital Security School</h1>
 
-    <p>Thank you for registering with us!</p>
+    <p class="thankyou">Thank you for registering with us!</p>
 
     <main class="container">
 
         <form action="url-where-you-want-to-submit-form-data">
-        <p>Name</p>
+        <p class="name">Name</p>
         <input type="text" placeholder="Enter your name" required>
 
-        <p>Email</p>
+        <p class="email">Email</p>
         <input type="text" placeholder="Enter your Email" required>
 
-        <p>Age</p>
+        <p class="=age">Age (optional)</p>
         <input type="text" placeholder="Age" required>
 
-        <p>Which option best describes your current role?</p>
+        <p class="role">Which option best describes your current role?</p>
         
         <label for="role">
         <select id="role" name="role">
-          <option value="none">Select current role</option>
+          <option value="none" checked>Select current role</option>
           <option value="student">Student</option>
           <option value="full-time-job">Full Time Job</option>
           <option value="full-time-learner">Full Time Learner</option>
@@ -40,19 +43,19 @@
 
         <p>Would you recommend Digital Security Institute to a friend?</p>
         <label for="definitely" >
-        <input id="definitely" value="definitely" type="radio" name="recommend">Definitely
+        <input id="definitely" value="definitely" type="radio" name="recommend"> Definitely
         </label>
         <label for="maybe">
-        <input id="maybe" value="maybe" type="radio" name="recommend">Maybe
+        <input id="maybe" value="maybe" type="radio" name="recommend"> Maybe
         </label>
         <label for="not-sure">
-        <input id="not-sure" value="not-sure" type="radio" name="recommend">Not sure
+        <input id="not-sure" value="not-sure" type="radio" name="recommend"> Not sure
         </label>
         <p>What is your favorite feature of Digital Security Institute?</p>
 
         <label for="feature">
             <select id="feature" name="feature">
-              <option value="none">Select an option</option>
+              <option value="none" checked>Select an option</option>
               <option value="challenges">Challenges</option>
               <option value="projects">Projects</option>
               <option value="community">Community</option>
@@ -62,37 +65,37 @@
 
         <p>What you like to see improved? (Check all that apply)</p>
         <label for="front-end-projects">
-        <input id="front-end-projects" value="front-end-projects" type="checkbox" name="improved">Front-end Projects
+        <input id="front-end-projects" value="front-end-projects" type="checkbox" name="improved"> Front-end Projects
         </label>
         <label for="back-end-projects">
-        <input id="back-end-projects" value="back-end-projects" type="checkbox" name="improved">Back-end Projects
+        <input id="back-end-projects" value="back-end-projects" type="checkbox" name="improved"> Back-end Projects
         </label>
         <label for="data-visualization">
-        <input id="data-visualization" value="data-visualization" type="checkbox" name="improved">Data Visualization
+        <input id="data-visualization" value="data-visualization" type="checkbox" name="improved"> Data Visualization
         </label>
         <label for="challenges">
-        <input id="challenges" value="challenges" type="checkbox" name="improved">Challenges
+        <input id="challenges" value="challenges" type="checkbox" name="improved"> Challenges
         </label>
         <label for="open-source-community">
-        <input id="open-source-community" value="open-source-community" type="checkbox" name="improved">Open Source Community
+        <input id="open-source-community" value="open-source-community" type="checkbox" name="improved"> Open Source Community
         </label>
         <label for="gitter-help-rooms">
-        <input id="gitter-help-rooms" value="gitter-help-rooms" type="checkbox" name="improved">Gitter help rooms
+        <input id="gitter-help-rooms" value="gitter-help-rooms" type="checkbox" name="improved"> Gitter help rooms
         </label>
         <label for="videos">
-        <input id="videos" value="videos" type="checkbox" name="improved">Videos
+        <input id="videos" value="videos" type="checkbox" name="improved"> Videos
         </label>
         <label for="city-meetups">
-        <input id="city-meetups" value="city-meetups" type="checkbox" name="improved">City Meetups
+        <input id="city-meetups" value="city-meetups" type="checkbox" name="improved"> City Meetups
         </label>
         <label for="wiki">
-        <input id="wiki" value="wiki" type="checkbox" name="improved">Wiki
+        <input id="wiki" value="wiki" type="checkbox" name="improved"> Wiki
         </label>
         <label for="forum">
-        <input id="forum" value="forum" type="checkbox" name="improved">Forum
+        <input id="forum" value="forum" type="checkbox" name="improved"> Forum
         </label>
         <label for="additional-courses">
-        <input id="additional-courses" value="additional-courses" type="checkbox" name="improved">Additional Courses
+        <input id="additional-courses" value="additional-courses" type="checkbox" name="improved"> Additional Courses
         </label>
 
         <p>Any comments or suggestions?</p>
