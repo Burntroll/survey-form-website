@@ -25,57 +25,74 @@
         <p>Age</p>
         <input type="text" placeholder="Age" required>
 
-        <p>Which option best describes your current role?
-            Barra de rolar com: Select current role (placeholder)/ Student / Full Time Job / Full Time Learner / Prefer not to say / Other 
-        </p>
+        <p>Which option best describes your current role?</p>
+        
+        <label for="role">
+        <select id="role" name="role">
+          <option value="none">Select current role</option>
+          <option value="student">Student</option>
+          <option value="full-time-job">Full Time Job</option>
+          <option value="full-time-learner">Full Time Learner</option>
+          <option value="prefer-not-to-say">Prefer not to say</option>
+          <option value="other">Other</option>
+        </select>
+        </label>
 
         <p>Would you recommend Digital Security Institute to a friend?</p>
-        <label for="recommend">
-        <input id="recommend" type="radio" name="maybe-notsure">Definitely
+        <label for="definitely" >
+        <input id="definitely" value="definitely" type="radio" name="recommend">Definitely
         </label>
-        <label for="recommend">
-        <input id="recommend" type="radio" name="maybe-notsure">Maybe
+        <label for="maybe">
+        <input id="maybe" value="maybe" type="radio" name="recommend">Maybe
         </label>
-        <label for="recommend">
-        <input id="recommend" type="radio" name="maybe-notsure">Not sure
+        <label for="not-sure">
+        <input id="not-sure" value="not-sure" type="radio" name="recommend">Not sure
         </label>
-        <p>What is your favorite feature of Digital Security Institute?
-            text: Select an option (placeholder) / Challenges / Projects / Community / Open Source
-        </p>
+        <p>What is your favorite feature of Digital Security Institute?</p>
+
+        <label for="feature">
+            <select id="feature" name="feature">
+              <option value="none">Select an option</option>
+              <option value="challenges">Challenges</option>
+              <option value="projects">Projects</option>
+              <option value="community">Community</option>
+              <option value="open-source">Open Source</option>
+            </select>
+        </label>
 
         <p>What you like to see improved? (Check all that apply)</p>
-        <label for="improved">
-        <input id="improved" type="checkbox" name="projects">Front-end Projects
+        <label for="front-end-projects">
+        <input id="front-end-projects" value="front-end-projects" type="checkbox" name="improved">Front-end Projects
         </label>
-        <label for="improved">
-        <input id="improved" type="checkbox" name="projects">Back-end Projects
+        <label for="back-end-projects">
+        <input id="back-end-projects" value="back-end-projects" type="checkbox" name="improved">Back-end Projects
         </label>
-        <label for="improved">
-        <input id="improved" type="checkbox" name="projects">Data Visualization
+        <label for="data-visualization">
+        <input id="data-visualization" value="data-visualization" type="checkbox" name="improved">Data Visualization
         </label>
-        <label for="improved">
-        <input id="improved" type="checkbox" name="projects">Challenges
+        <label for="challenges">
+        <input id="challenges" value="challenges" type="checkbox" name="improved">Challenges
         </label>
-        <label for="improved">
-        <input id="improved" type="checkbox" name="projects">Open Source Community
+        <label for="open-source-community">
+        <input id="open-source-community" value="open-source-community" type="checkbox" name="improved">Open Source Community
         </label>
-        <label for="improved">
-        <input id="improved" type="checkbox" name="projects">Gitter help rooms
+        <label for="gitter-help-rooms">
+        <input id="gitter-help-rooms" value="gitter-help-rooms" type="checkbox" name="improved">Gitter help rooms
         </label>
-        <label for="improved">
-        <input id="improved" type="checkbox" name="projects">Videos
+        <label for="videos">
+        <input id="videos" value="videos" type="checkbox" name="improved">Videos
         </label>
-        <label for="improved">
-        <input id="improved" type="checkbox" name="projects">City Meetups
+        <label for="city-meetups">
+        <input id="city-meetups" value="city-meetups" type="checkbox" name="improved">City Meetups
         </label>
-        <label for="improved">
-        <input id="improved" type="checkbox" name="projects">Wiki
+        <label for="wiki">
+        <input id="wiki" value="wiki" type="checkbox" name="improved">Wiki
         </label>
-        <label for="improved">
-        <input id="improved" type="checkbox" name="projects">Forum
+        <label for="forum">
+        <input id="forum" value="forum" type="checkbox" name="improved">Forum
         </label>
-        <label for="improved">
-        <input id="improved" type="checkbox" name="projects">Additional Courses
+        <label for="additional-courses">
+        <input id="additional-courses" value="additional-courses" type="checkbox" name="improved">Additional Courses
         </label>
 
         <p>Any comments or suggestions?</p>
