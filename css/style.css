@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(70, 6, 153, 0.5), rgba(70, 6, 153, 0.5)80%), url("/assets/image/background.jpg");
+    font: "Times New Roman", Times, serif;
+    color: rgb(124, 243, 124);
+}
+
+h1 {
+    text-align: center;
+    align-items: center;
+    margin: 4% 0 2.5% 0;
+    font-size: 45px;
+}
+
+p {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3%;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.container {
+    width: 600px;
+    height: 750px;
+    border: 1px solid black;
+    border-radius: 2%;
+}
+
+button {
+    cursor: pointer;
+    transition: .30s ease all;
+}
