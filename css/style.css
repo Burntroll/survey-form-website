@@ -7,6 +7,7 @@
 body {
     background: linear-gradient(rgb(102, 0, 204, 0.65), rgb(102, 0, 204, 0.65)80%), url("/assets/image/background.jpg");
     font-family: 'Inter', sans-serif;
+    font-size: 20px;
     color: rgb(242, 242, 242);
     background-size: cover;
     display: flex;
@@ -30,16 +31,17 @@ h1 {
 p {
     text-align: left;
     align-items: center;
-    margin: 25px 0 10px 0;
+    margin: 25px 0 5px 0;
     font-size: 25px;
     font-weight: 500;
-
-
 }
 
+span {
+    font-size: 18px;
+}
 .container {
     width: 700px;
-    height: 850px;
+    height: 100%;
     border: 1px solid rgb(38, 0, 77);
     border-radius: 0.9%;
     background-color: rgb(26, 0, 51, 0.7);
@@ -51,4 +53,18 @@ p {
 button {
     cursor: pointer;
     transition: .30s ease all;
+}
+button {
+    margin-bottom: 10px;
+}
+.institute {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.improved {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
