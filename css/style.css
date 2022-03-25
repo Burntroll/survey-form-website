@@ -20,7 +20,7 @@ h1 {
     text-align: center;
     align-items: center;
     margin: 4% 0 0 0;
-    font-size: 45px;
+    font-size: 40px;
     color: rgb(242, 242, 242);
 }
 
@@ -31,8 +31,8 @@ h1 {
 p {
     text-align: left;
     align-items: center;
-    margin: 25px 0 5px 0;
-    font-size: 25px;
+    margin: 25px 0 8px 0;
+    font-size: 22px;
     font-weight: 500;
 }
 
@@ -53,18 +53,32 @@ span {
 button {
     cursor: pointer;
     transition: .30s ease all;
-}
-button {
     margin-bottom: 10px;
 }
+
 .institute {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
+/*ESTE É O CHECKBOX INICIAL*/
 .improved {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+
+.primeira {
+    margin-bottom: 14px;
+}
+
+/*ESTE É O CHECKBOX INICIAL*/
+.segunda {
+    margin-bottom: 14px;   
+}
+
+.form-floating {
+    margin-bottom: 25px;
+}
+

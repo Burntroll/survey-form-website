@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" href="/assets/image/Favicon.jpeg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,14 +20,23 @@
     <main class="container">
 
         <form action="url-where-you-want-to-submit-form-data">
-        <p class="name">Name</p>
-        <input type="text" placeholder="Enter your name" required>
+        <p class="name">Name</p>       
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default"></span>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Enter your name" required>
+        </div>
 
         <p class="email">Email</p>
-        <input type="text" placeholder="Enter your Email" required>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default"></span>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Enter your Email" required>
+        </div>
 
         <p class="=age">Age (optional)</p>
-        <input type="text" placeholder="Age" required>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default"></span>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Age" required>
+        </div>
 
         <p class="role">Which option best describes your current role?</p>
         
@@ -44,13 +54,13 @@
         <div class="institute">
         <p>Would you recommend Digital Security Institute to a friend?</p>
         <label for="definitely" >
-        <input id="definitely" value="definitely" type="radio" name="recommend"> Definitely
+        <input id="definitely" class="primeira" value="definitely" type="radio" name="recommend"> Definitely
         </label>
         <label for="maybe">
-        <input id="maybe" value="maybe" type="radio" name="recommend"> Maybe
+        <input id="maybe" class="primeira" value="maybe" type="radio" name="recommend"> Maybe
         </label>
         <label for="not-sure">
-        <input id="not-sure" value="not-sure" type="radio" name="recommend"> Not sure
+        <input id="not-sure" class="primeira" value="not-sure" type="radio" name="recommend"> Not sure
         </label>
         </div>
         <p>What is your favorite feature of Digital Security Institute?</p>
@@ -65,50 +75,92 @@
             </select>
         </label>
 
-        <div class="improved">
         <p>What would you like to see improved? <span>(Check all that apply)</span></p>
-        <label for="front-end-projects">
-        <input id="front-end-projects" value="front-end-projects" type="checkbox" name="improved"> Front-end Projects
-        </label>
-        <label for="back-end-projects">
-        <input id="back-end-projects" value="back-end-projects" type="checkbox" name="improved"> Back-end Projects
-        </label>
-        <label for="data-visualization">
-        <input id="data-visualization" value="data-visualization" type="checkbox" name="improved"> Data Visualization
-        </label>
-        <label for="challenges">
-        <input id="challenges" value="challenges" type="checkbox" name="improved"> Challenges
-        </label>
-        <label for="open-source-community">
-        <input id="open-source-community" value="open-source-community" type="checkbox" name="improved"> Open Source Community
-        </label>
-        <label for="gitter-help-rooms">
-        <input id="gitter-help-rooms" value="gitter-help-rooms" type="checkbox" name="improved"> Gitter help rooms
-        </label>
-        <label for="videos">
-        <input id="videos" value="videos" type="checkbox" name="improved"> Videos
-        </label>
-        <label for="city-meetups">
-        <input id="city-meetups" value="city-meetups" type="checkbox" name="improved"> City Meetups
-        </label>
-        <label for="wiki">
-        <input id="wiki" value="wiki" type="checkbox" name="improved"> Wiki
-        </label>
-        <label for="forum">
-        <input id="forum" value="forum" type="checkbox" name="improved"> Forum
-        </label>
-        <label for="additional-courses">
-        <input id="additional-courses" value="additional-courses" type="checkbox" name="improved"> Additional Courses
-        </label>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="front-end-projects" id="front-end-projects">
+          <label class="form-check-label" for="front-end-projects">
+            Front-end Projects
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="back-end-projects" id="back-end-projects" checked>
+          <label class="form-check-label" for="back-end-projects">
+            Back-end projects
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="data-visualization" id="data-visualization" checked>
+          <label class="form-check-label" for="data-visualization">
+            Data Visualization
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="challenges" id="challenges">
+          <label class="form-check-label" for="challenges">
+            Challenges
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="open-source-community" id="open-source-community">
+          <label class="form-check-label" for="open-source-community">
+            Open Source Community
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="gitter-help-rooms" id="gitter-help-rooms">
+          <label class="form-check-label" for="gitter-help-rooms">
+            Gitter help rooms
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="videos" id="videos">
+          <label class="form-check-label" for="videos">
+            Videos
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="city-meetups" id="city-meetups">
+          <label class="form-check-label" for="city-meetups">
+            City Meetups
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="wiki" id="wiki">
+          <label class="form-check-label" for="wiki">
+            Wiki
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="forum" id="forum">
+          <label class="form-check-label" for="forum">
+            Forum
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="additional-courses" id="additional-courses">
+          <label class="form-check-label" for="additional-courses">
+            Additional Courses
+          </label>
         </div>
 
         <p>Any comments or suggestions?</p>
-        <input type="text" placeholder="Enter your comment here..." required>
+        <div class="form-floating">
+          <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+          <label for="floatingTextarea2"></label>
+        </div>
 
-        <button>Submit</button>
-
+        <div class="d-grid gap-2">
+          <button class="btn btn-primary" type="button">Submit</button>
+        </div>
         </form>
-
     </main>
 </body>
 </html>
