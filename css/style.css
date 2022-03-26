@@ -19,7 +19,7 @@ body {
 h1 {
     text-align: center;
     align-items: center;
-    margin: 4% 0 0 0;
+    margin: 3.5% 0 0 0;
     font-size: 40px;
     color: rgb(242, 242, 242);
 }
@@ -50,20 +50,7 @@ span {
     margin-bottom: 5px;
 }
 
-button {
-    cursor: pointer;
-    transition: .30s ease all;
-    margin-bottom: 10px;
-}
-
 .institute {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-/*ESTE É O CHECKBOX INICIAL*/
-.improved {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -73,12 +60,11 @@ button {
     margin-bottom: 14px;
 }
 
-/*ESTE É O CHECKBOX INICIAL*/
-.segunda {
-    margin-bottom: 14px;   
-}
-
 .form-floating {
     margin-bottom: 25px;
 }
 
+button {
+    transition: .30s ease all;
+    margin-bottom: 20px;
+}
