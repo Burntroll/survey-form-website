@@ -68,3 +68,11 @@ button {
     transition: .30s ease all;
     margin-bottom: 20px;
 }
+
+[type="radio"] {
+    margin-right: 5px;
+}
+
+[type="checkbox"] {
+    margin-right: 5px;
+}
