@@ -60,8 +60,20 @@ span {
     margin-bottom: 14px;
 }
 
-.form-floating {
-    margin-bottom: 25px;
+textarea {
+    text-align: left;
+    align-items: center;
+    margin: 18px 0 25px 0;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.query {
+    text-align: left;
+    align-items: center;
+    margin-top: 22px;
+    font-size: 22px;
+    font-weight: 500;
 }
 
 button {
